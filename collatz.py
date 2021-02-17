@@ -1,6 +1,7 @@
 # Program that asks the user to input any positive integer and outputs the following
     # At each step calculates the next value by taking the current value and
         # If it's even - devide by two, if it's odd - multiply by three and add one
+    # Program ends when the current value is 1
 # Author: Ante Dujic
 
 
