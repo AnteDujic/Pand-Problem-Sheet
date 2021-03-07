@@ -28,3 +28,21 @@ REF: https://www.w3schools.com/python/ref_list_append.asp
 	https://www.w3schools.com/python/python_while_loops.asp
 
 
+WEEK 5
+•	weekday.py
+Write a program that outputs whether or not today is a weekday.
+
+I’ve imported a module ‘’datetime’’ that manipulates date and time. To get the proper date I’ve used the ‘’%u” formatting, starting with Mon as 1 and ending with Sun as 7. Program checks what day it is and its corresponding number and compares it to 5 to check if it’s weekday (1-5), or weekend (6-7).
+REF: https://www.w3schools.com/python/python_datetime.asp
+
+
+WEEK 6
+•	squareroot.py
+Write a program that takes a positive floating-point number as input and outputs an approximation of its square root, using Newton method.
+
+
+REF: https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+
+
+
+
