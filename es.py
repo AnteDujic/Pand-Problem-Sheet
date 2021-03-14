@@ -1,8 +1,9 @@
 # Program that reads in a text file
     # It outputs the number of e's in the file
 # Author: Ante Dujic
+import sys
 
-myFile = input ("Please write a file name (.txt): ")
+myFile = sys.argv[1]
 stringToCount = input ("Please write a string you want to count:")
 
 with open (myFile, "rt") as f:
@@ -12,3 +13,4 @@ with open (myFile, "rt") as f:
 
     # https://www.w3schools.com/python/ref_string_count.asp
     # https://www.guru99.com/python-string-count.html#:~:text=Python%20count,want%20the%20search%20to%20begin.
+    # https://realpython.com/python-command-line-arguments/
