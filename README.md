@@ -24,7 +24,7 @@ print ("BMI is:",BMI)
 ```
 *EXPLANATION:*
 
-_Program asks the user to input height (cm) and weight (kg) as a float number. It then calculates BMI using formula BMI = kg/m2 (converting cm to m), rounds it using round() function  and prints it out._
+_Program asks the user to input height (cm) and weight (kg) as a float number. It then calculates BMI using formula BMI = kg/m^2 (converting cm to m), rounds it using round() function  and prints it out._
 
 *REFERENCES:*
 -	https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
