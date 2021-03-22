@@ -4,6 +4,8 @@
 
 This README file contains explanation of the code written to solve the problems assigned in weekly tasks for Programming and Scripting Module.
 
+
+
 ## **WEEK 2**
 ### **bmi.py**
 Write a program that calculates somebody’s Body Mass Index (BMI)
