@@ -35,7 +35,7 @@ _Program asks the user to input height (cm) and weight (kg) as a float number. I
 # **WEEK 3**
 ### secondString.py
 
-Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
 *CODE:*
 
