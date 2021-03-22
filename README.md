@@ -30,3 +30,25 @@ _Program asks the user to input height (cm) and weight (kg) as a float number. I
 -	https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
 -	https://www.w3schools.com/python/ref_func_round.asp
 -	https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
+
+
+# **WEEK 3**
+### secondString.py
+
+Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+
+*CODE:*
+
+```python
+stringInput = input ("Please enter a sentence: ")
+stringSecond = (stringInput [1::2])
+print (stringSecond [::-1])
+```
+
+*EXPLANATION:*
+
+_Program asks the user to write a sentence. It takes every second letter of that sentence using slicing notation and then prints them out in reverse order using slicing notation again.
+
+*REFERENCES:*
+- https://stackoverflow.com/questions/509211/understanding-slice-notation
+- https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
