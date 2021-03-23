@@ -15,7 +15,7 @@ Write a program that calculates somebody’s Body Mass Index (BMI)
 *CODE:*
 
 ```python
-height = float (input ("Enter height (cm): ”))
+height = float (input ("Enter height (cm): "))
 weight = float (input ("Enter weight (kg): "))
 
 BMI = round((weight/((height/100)**2)),2)
