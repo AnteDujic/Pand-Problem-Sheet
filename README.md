@@ -32,7 +32,7 @@ _Program asks the user to input height (cm) and weight (kg) as a float number. I
 -	https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
 
 
-# **WEEK 3**
+## **WEEK 3**
 ### secondString.py
 
 Write a program that asks a user to input a string and outputs every second letter in reverse order.
@@ -53,7 +53,7 @@ _Program asks the user to write a sentence. It takes every second letter of that
 - https://stackoverflow.com/questions/509211/understanding-slice-notation
 - https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
 
-# **WEEK 4**
+## **WEEK 4**
 ### collatz.py
 
 Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
