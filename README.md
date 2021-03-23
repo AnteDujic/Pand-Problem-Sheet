@@ -76,7 +76,7 @@ while numberEntered != 1
         numberEntered = numberEntered / 2                                       
     else:                                                                       
         numberEntered = (numberEntered * 3) + 1                                 
-    numbersListed.append (int(numberEntered
+    numbersListed.append (int(numberEntered))
 
 print (numbersListed)
 ```
