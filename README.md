@@ -47,7 +47,7 @@ print (stringSecond [::-1])
 
 *EXPLANATION:*
 
-_Program asks the user to write a sentence. It takes every second letter of that sentence using slicing notation and then prints them out in reverse order using slicing notation again.
+_Program asks the user to write a sentence. It takes every second letter of that sentence using slicing notation and then prints them out in reverse order using slicing notation again._
 
 *REFERENCES:*
 - https://stackoverflow.com/questions/509211/understanding-slice-notation
@@ -84,7 +84,7 @@ print (numbersListed)
 
 *EXPLANATION:*
 
-_Program asks the user to input a positive integer. The While loop is set up, if the input is less (negative) or equal to  0. As long as that is true, program runs in loop outputting the programmed sentence and prompting the user to input a positive integer. If false program moves to the next line, setting up a list and add to list commands. Then the While loop is set up, to run the following lines (If number is even to run the calculation, or (else) if number is not even (is odd) to run the other given calculation) if the current number is different then 1. It keeps adding the numbers to the list. If false (If the current number is equal to 1) the While loop stops and goes to the next line. The program prints out the list.
+_Program asks the user to input a positive integer. The While loop is set up, if the input is less (negative) or equal to  0. As long as that is true, program runs in loop outputting the programmed sentence and prompting the user to input a positive integer. If false program moves to the next line, setting up a list and add to list commands. Then the While loop is set up, to run the following lines (If number is even to run the calculation, or (else) if number is not even (is odd) to run the other given calculation) if the current number is different then 1. It keeps adding the numbers to the list. If false (If the current number is equal to 1) the While loop stops and goes to the next line. The program prints out the list._
 
 *REFERENCES:*
 
