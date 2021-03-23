@@ -90,3 +90,30 @@ _Program asks the user to input a positive integer. The While loop is set up, if
 
 -	https://www.w3schools.com/python/ref_list_append.asp
 -	https://www.w3schools.com/python/python_while_loops.asp
+
+##WEEK 5
+###weekday.py
+
+Write a program that outputs whether or not today is a weekday.
+
+*CODE:*
+
+```python
+import datetime                                         
+
+today = datetime.datetime.now()
+
+if (int ((today.strftime("%u"))) > 5):
+    print ("Today is the weekend, yay!")
+else:
+    print ("Yes, unfortunately today is a weekday.")
+```
+
+*EXPLANATION:*
+
+_A module ‘’datetime’’ gets imported. It manipulates date and time. To get the proper date the ‘’%u” formatting is used, starting with Mon  (1) and ending with Sun (7). Program checks what day it is and its corresponding number and compares it to 5 to check if it’s weekday (1-5), or weekend (6-7)._
+
+*REFERENCE:*
+
+-	 https://www.w3schools.com/python/python_datetime.asp
+
