@@ -113,7 +113,7 @@ else:
 
 _A module ‘’datetime’’ gets imported. It manipulates date and time. To get the proper date the ‘’%u” formatting is used, starting with Mon  (1) and ending with Sun (7). Program checks what day it is and its corresponding number and compares it to 5 to check if it’s weekday (1-5), or weekend (6-7)._
 
-*REFERENCE:*
+*REFERENCES:*
 
 -	 https://www.w3schools.com/python/python_datetime.asp
 
