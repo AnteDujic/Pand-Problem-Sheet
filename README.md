@@ -172,6 +172,7 @@ with open (myFile, "rt") as f:
 ```
 
 *EXPLANATION:*
+
 _The sys module is imported, to allow the use of sys.argv - a list in Python, which contains the command-line arguments passed to the script. The first argument (sys.argv[0]) is the program name and every next one (sys.argv[1], sys.argv[2]…) is defined. The file to be read is defined as the sys.argv[1], which allows for it to be taken from the command line. The file is opened using with command. The count() method is used to return the number of times a specified value (string) appears in the file._
 
 *REFERENCE:*
