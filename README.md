@@ -182,3 +182,41 @@ _The sys module is imported, to allow the use of sys.argv - a list in Python, wh
 -	https://realpython.com/python-command-line-arguments/
 -	https://www.tutorialsteacher.com/python/sys-module
 -	https://docs.python.org/3/library/sys.html
+
+
+## **WEEK 8**
+
+### **plottask.py**
+
+Write a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+*CODE:*
+```python
+import numpy as np
+import matplotlib.pyplot as plt 
+
+x = np.array (range(0, 4))   
+yF = x
+yG = x**2
+yH = x**3
+
+plt.plot (x, yF, label = "f(x)", color='red', linestyle='solid', marker='o', markerfacecolor='red', markersize=5) 
+plt.plot (x, yG, label = "g(x)", color='green', linestyle='dashed', marker='o', markerfacecolor='green', markersize=5)
+plt.plot (x, yH, label = "h(x)", color='blue', linestyle='dotted', marker='o', markerfacecolor='blue', markersize=5)
+
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.title("Functions \n f(x)=x; g(x)=x^2; h(x)=x^3")
+plt.legend()
+plt.show ()
+```
+
+*EXPLANATION:*
+_First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . x gets defined as array in the range from 0 to 4. Y for each function gets defined (yF, yG, yH). Then, plots get created using plt.plot, where we define some visuals (e.g. style, color of the line, marker, etc.)._
+
+
+*REFERENCE:*
+
+-	https://realpython.com/numpy-tutorial/
+-	https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+-	https://www.w3schools.com/python/matplotlib_pyplot.asp
