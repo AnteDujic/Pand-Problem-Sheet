@@ -117,3 +117,67 @@ _A module ‘’datetime’’ gets imported. It manipulates date and time. To g
 
 -	 https://www.w3schools.com/python/python_datetime.asp
 
+
+## **WEEK 6**
+### **squareroot.py**
+
+Write a program that takes a positive floating-point number as input and outputs an approximation of its square root, using Newton method.
+
+*CODE:*
+
+```python
+import math
+
+def sqrt (x):
+   estimate = 1.0
+   tolerance = 0.000001
+   while True:
+        estimate = (estimate + x / estimate) / 2
+        difference = abs(x - estimate ** 2)
+        if difference <= tolerance:
+            break
+   return estimate
+
+x = float (input("Please enter a positive number: "))
+print("The sqare root of {} is approx. {}" .format (x, (round ((sqrt (x)), 1))))
+```
+
+*EXPLANATION:*
+
+_Newton method is used to get the (approx.) square root of a number. It consists of making an educated guess and then entering it into equitation. It is done repeatedly, until the correct square root is obtained. First the math module gets imported._
+
+*REFERENCE:*
+
+-	https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+-	https://www.school-for-champions.com/algebra/square_root_approx.htm#.YFsohq_7SUn
+
+
+## **WEEK 7**
+### **es.py**
+
+Write a program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line.
+
+*CODE:*
+
+```python
+import sys
+
+myFile = sys.argv[1]
+stringToCount = input ("Please write a string you want to count:")
+
+with open (myFile, "rt") as f:
+    data = f.read ()
+    stringCount = data.count (stringToCount)
+    print (stringCount)
+```
+
+*EXPLANATION:*
+_The sys module is imported, to allow the use of sys.argv - a list in Python, which contains the command-line arguments passed to the script. The first argument (sys.argv[0]) is the program name and every next one (sys.argv[1], sys.argv[2]…) is defined. The file to be read is defined as the sys.argv[1], which allows for it to be taken from the command line. The file is opened using with command. The count() method is used to return the number of times a specified value (string) appears in the file._
+
+*REFERENCE:*
+
+-	https://www.w3schools.com/python/ref_string_count.asp
+-	https://www.guru99.com/python-string-count.html
+-	https://realpython.com/python-command-line-arguments/
+-	https://www.tutorialsteacher.com/python/sys-module
+-	https://docs.python.org/3/library/sys.html
