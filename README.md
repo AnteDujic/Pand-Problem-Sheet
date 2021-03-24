@@ -212,6 +212,7 @@ plt.show ()
 ```
 
 *EXPLANATION:*
+
 _First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . x gets defined as array in the range from 0 to 4. Y for each function gets defined (yF, yG, yH). Then, plots get created using plt.plot, where we define some visuals (e.g. style, color of the line, marker, etc.)._
 
 
