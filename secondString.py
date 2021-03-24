@@ -1,7 +1,7 @@
 # Program that asks user to input a string and outputs every second letter in reverse order
 # Author: Ante Dujic
 
-# Inputting a string
+# Inputting a string (Prompting user for the input)
 
 stringInput = input ("Please enter a sentence: ")
 
