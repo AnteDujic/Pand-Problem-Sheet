@@ -13,7 +13,7 @@ myFile = sys.argv[1]
     # rt (read text file)
 with open (myFile, "rt") as f:                                              
     data = f.read ()
-    stringCount = data.count ("e")                                # counting inputed string
+    stringCount = data.count ("e")                                # counting es string
     print (stringCount)                                           # output the counted string
 
 

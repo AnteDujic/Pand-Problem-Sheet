@@ -23,9 +23,9 @@ numbers.append (int(number))
 
 # Setting While loop, if number is different to 1 (When it gets to 1 exit loop)
 while number != 1:                                                   
-    if number % 2 == 0:                                                  # If even
+    if number % 2 == 0:                                           # If even
         number = number / 2                                       # Divide by 2
-    else:                                                                       # If odd (not even)
+    else:                                                         # If odd (not even)
         number = (number * 3) + 1                                 # Multiply by 3 and add 1
     
     # Add numbers to the list
