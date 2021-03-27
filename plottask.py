@@ -16,7 +16,7 @@ yG = x**2
 yH = x**3
 
 # Visualisation
-    # Drawing plots and customizing it
+    # Drawing plots and customizing them
 plt.plot (x, yF, label = "f(x)", color='red', linestyle='solid', marker='o', markerfacecolor='red', markersize=5) 
 plt.plot (x, yG, label = "g(x)", color='green', linestyle='dashed', marker='o', markerfacecolor='green', markersize=5)
 plt.plot (x, yH, label = "h(x)", color='blue', linestyle='dotted', marker='o', markerfacecolor='blue', markersize=5)
@@ -36,4 +36,5 @@ REFERENCES:
 - matplotlib.pyplot: https://www.w3schools.com/python/matplotlib_pyplot.asp
 - create array: https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp
 - plotting and visualisation: https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+- nameing axis, title: https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib
 """

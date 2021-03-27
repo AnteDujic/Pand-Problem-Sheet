@@ -2,13 +2,13 @@
 # Author: Ante Dujic
 
 # Importing module datetime to work with dates as date objects
-import datetime                                         
+import datetime as dt                                     
 
 # Setting variable for current day
-today = datetime.datetime.now()
+today = dt.datetime.now()
 
 # Comparing current day (1-7) to Friday (5)
-    # strf.time() formats date objects
+    # strf.time() formats date objects as strings (converted to int)
 if (int ((today.strftime("%u"))) > 5):                  # "%u" = ISO 8601 weekday Mon(1) - Sun (7)
     print ("Today is the weekend, yay!")
 else:
