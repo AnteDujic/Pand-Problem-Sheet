@@ -139,17 +139,26 @@ def sqrt (x):
    return estimate
 
 x = float (input("Please enter a positive number: "))
+
+if x < 0:
+    print ("It is imposible to find a sqare root of a negative number")
+    x = float (input("Please enter a POSITIVE number: "))
+
 print("The sqare root of {} is approx. {}" .format (x, (round ((sqrt (x)), 1))))
 ```
 
 *EXPLANATION:*
 
-_Newton method is used to get the (approx.) square root of a number. It consists of making an educated guess and then entering it into equitation. It is done repeatedly, until the correct square root is obtained. First the math module gets imported._
+_Newton method is used to get the (approx.) square root of a number. It consists of making an educated guess and then entering it into equitation. It is done repeatedly, until the correct square root is obtained. First the math module gets imported, to allow the use of mathematical functions. Then the functions is set up. Within the function variable for initializing the function and the variable for exiting the loop are set up. Then the while loop is set up to run until the condition is met (until difference between absolute value of input number and n^2 is equal or less then tolerance). Outside of function, program prompts the user for an input (positive number). If the input number is negative the massage will be output and the user will be asked to input a positive number. Finally, the function is called within the print function, and the output is rounded to 1 decimal space._
 
 *REFERENCE:*
 
--	https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+-	https://docs.python.org/3/library/math.html
 -	https://www.school-for-champions.com/algebra/square_root_approx.htm#.YFsohq_7SUn
+-	https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+-	https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html
+-	https://www.w3schools.com/python/python_functions.asp
+-	https://realpython.com/python-return-statement/
 
 
 ## **WEEK 7**

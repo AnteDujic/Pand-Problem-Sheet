@@ -7,14 +7,14 @@ import math
 
 # Defining the function
 def sqrt (x):
-   estimate = 1.0                                       # Iteration initialisation
+   n = 1.0                                       # Iteration initialisation
    tolerance = 0.000001                                 # Set the tolerance for comparison (exiting the loop)
    while True:
-        estimate = 0.5 * (estimate + x / estimate)      # Formula
-        difference = abs(x - estimate ** 2)             # Difference
+        n = 0.5 * (n + x / n)      # Formula
+        difference = abs(x - n ** 2)             # Difference
         if difference <= tolerance:                     # Exiting the loop if condition met
             break
-   return estimate
+   return n
 
 # Prompting user for the number input
 x = float (input("Please enter a positive number: "))
