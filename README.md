@@ -225,7 +225,7 @@ plt.show ()
 
 *EXPLANATION:*
 
-_First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . Variable x is defined as array in the range from 0 to 4. Variables y for each function are defined (yF, yG, yH) as tasked. Then, plots gets created using plt.plot, where we define some visuals for each function plot (label, color, linestyle, marker, markerfacecolor, markersize). Axis are named using plt.xlabel() and plt.ylabel(), plot named using plt.title and legend defined using plt.legend(). Finally, plot gets output using plt.show() _
+_First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . Variable x is defined as array in the range from 0 to 4. Variables y for each function are defined (yF, yG, yH) as tasked. Then, plots gets created using plt.plot, where we define some visuals for each function plot (label, color, linestyle, marker, markerfacecolor, markersize). Axis are named using plt.xlabel() and plt.ylabel(), plot named using plt.title and legend defined using plt.legend(). Finally, plot gets output using plt.show()_
 
 
 *REFERENCE:*
