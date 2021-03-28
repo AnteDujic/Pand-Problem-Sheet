@@ -2,7 +2,8 @@
 ## **WEEKLY TASKS**
 ## **AUTHOR: Ante Dujic**
 
-This Repostitory contains programs writtn to solve the problems assigned in weekly tasks for Programming and Scripting Module.
+This Repostitory contains programs written to solve the problems assigned in weekly tasks for Programming and Scripting Module.
+
 Programs:
 1. WEEKLY TASK 1 - bmi.py
 2. WEEKLY TASK 2 - secondString.py
@@ -13,7 +14,7 @@ Programs:
 7. WEEKLY TASK 7 - plottask.py
 
 
-## **bmi.py**
+## **1. bmi.py**
 Write a program that calculates somebody’s Body Mass Index (BMI)
 The inputs are the person's height in centimetres and weight in kilograms.
 The output is their weight divided by their height in metres squared.
@@ -38,7 +39,7 @@ _ Program asks the user to input height (cm) and weight (kg) as a float number. 
 -	https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
 
 
-## **secondString.py**
+## **2. secondString.py**
 
 Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
@@ -59,7 +60,7 @@ _Program asks the user to write a sentence. It takes every second letter of that
 - https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
 
 
-## **collatz.py**
+## **3. collatz.py**
 
 Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 
@@ -98,7 +99,7 @@ _Program asks the user to input a positive integer. The While loop is set up, if
 -	https://www.w3schools.com/python/python_while_loops.asp
 
 
-## **weekday.py**
+## **4. weekday.py**
 
 Write a program that outputs whether or not today is a weekday.
 
@@ -125,7 +126,7 @@ _A module datetime gets imported. It manipulates date and time.Then, variable fo
 -   https://www.programiz.com/python-programming/datetime
 
 
-## **squareroot.py**
+## **5. squareroot.py**
 
 Write a program that takes a positive floating-point number as input and outputs an approximation of its square root, using Newton method.
 
@@ -167,7 +168,7 @@ _Newton method is used to get the (approx.) square root of a number. It consists
 -	https://realpython.com/python-return-statement/
 
 
-## **es.py**
+## **6. es.py**
 
 Write a program that reads in a text file and outputs the number of e's it contains. The program should take the filename from an argument on the command line.
 
@@ -197,9 +198,9 @@ _The sys module is imported, to allow the use of sys.argv - a list in Python, wh
 -	https://docs.python.org/3/library/sys.html
 
 
-## **plottask.py**
+## **7. plottask.py**
 
-Write a program that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+Write a program that displays a plot of the functions f(x)=x, g(x)=x^2 and h(x)=x^3 in the range [0, 4] on the one set of axes.
 
 *CODE:*
 ```python
