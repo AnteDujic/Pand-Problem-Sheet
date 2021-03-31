@@ -27,8 +27,11 @@ plt.ylabel("y-axis")
 plt.title("Functions \n f(x)=x; g(x)=x^2; h(x)=x^3")
     # Showing legend
 plt.legend()
+    # Saving image of the plot
+plt.savefig ('functionsPlot.png')
     # Outputing final plot
 plt.show ()
+
 
 """
 REFERENCES:
