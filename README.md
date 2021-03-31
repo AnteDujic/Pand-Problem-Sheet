@@ -220,12 +220,16 @@ plt.ylabel("y-axis")
 plt.title("Functions \n f(x)=x; g(x)=x^2; h(x)=x^3")
 plt.legend()
 
+plt.savefig ('functionsPlot.png')
 plt.show ()
 ```
+*PLOT:*
+
+![alt text](https://github.com/AnteDujic/pands-problem-sheet/blob/main/functionsPlot.png)
 
 *EXPLANATION:*
 
-_First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . Variable x is defined as array in the range from 0 to 4. Variables y for each function are defined (yF, yG, yH) as tasked. Then, plots gets created using plt.plot, where we define some visuals for each function plot (label, color, linestyle, marker, markerfacecolor, markersize). Axis are named using plt.xlabel() and plt.ylabel(), plot named using plt.title and legend defined using plt.legend(). Finally, plot gets output using plt.show()_
+_First numpy and matplotlib.pyplot modules get imported. Numpy to work with arrays and matplotlib.pyplot for plotting . Variable x is defined as array in the range from 0 to 4. Variables y for each function are defined (yF, yG, yH) as tasked. Then, plots gets created using plt.plot, where we define some visuals for each function plot (label, color, linestyle, marker, markerfacecolor, markersize). Axis are named using plt.xlabel() and plt.ylabel(), plot named using plt.title and legend defined using plt.legend(). Finally, plot gets saved using plt.saveconfig() and output using plt.show()._
 
 
 *REFERENCE:*
@@ -240,4 +244,5 @@ _First numpy and matplotlib.pyplot modules get imported. Numpy to work with arra
 
 ## **README FORMATTING**
 - https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+- https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
 
