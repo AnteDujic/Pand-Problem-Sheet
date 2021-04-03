@@ -31,12 +31,12 @@ print ("BMI is: ",BMI)
 ```
 *EXPLANATION:*
 
-_ Program asks the user to input height (cm) and weight (kg) as a float number. It then calculates BMI using formula BMI = kg/m^2 (converting cm to m), rounds it using round() function  and prints it out._
+_Program asks the user to input height (cm) and weight (kg) as a float number. It then calculates BMI using formula BMI = kg/m^2 (converting cm to m), rounds it using round() function  and prints it out._
 
 *REFERENCES:*
--	https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
--	https://www.w3schools.com/python/ref_func_round.asp
--	https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
+-	Diabetes.ca 2021, _Body Mass Index_, Diabetes Canada, viewed on 01 Feb 2021, <https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator>
+-	w3schools.com 2021, _Python round()_, Refsnes Data, viewed on 01 Feb 2021, <https://www.w3schools.com/python/ref_func_round.asp>
+-	stackoverflow.com 2021, _BMI calculator_, Stack Exchange, viewed on 01 Feb 2021, <https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792>
 
 
 ## **2. secondString.py**
@@ -56,8 +56,8 @@ print (stringSecond [::-1])
 _Program asks the user to write a sentence. It takes every second letter of that sentence using slicing notation and then prints them out in reverse order using slicing notation again._
 
 *REFERENCES:*
-- https://stackoverflow.com/questions/509211/understanding-slice-notation
-- https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
+- stackoverflow.com 2021, _Understanding slice notation_, Stack Exchange (Greg Hewgill), viewed on 09 Feb 2021, <https://stackoverflow.com/questions/509211/understanding-slice-notation>
+- educative.io 2021, _How do you reverse a string_, Educative, Inc., viewed on 09 feb 2021, <https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python>
 
 
 ## **3. collatz.py**
@@ -94,9 +94,9 @@ _Program asks the user to input a positive integer. The While loop is set up, if
 
 *REFERENCES:*
 
--   https://www.w3schools.com/python/python_lists.asp
--	https://www.w3schools.com/python/ref_list_append.asp
--	https://www.w3schools.com/python/python_while_loops.asp
+-   w3schools.com 2021, _Python Lists_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/python_lists.asp>
+-	w3schools.com 2021, _Python List append()_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/ref_list_append.asp>
+-	w3schools.com 2021, _Python While Loops_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/python_while_loops.asp>
 
 
 ## **4. weekday.py**
@@ -122,8 +122,8 @@ _A module datetime gets imported. It manipulates date and time.Then, variable fo
 
 *REFERENCES:*
 
--	https://www.w3schools.com/python/python_datetime.asp
--   https://www.programiz.com/python-programming/datetime
+-	w3schools.com 2021, _Python Datetime_, Refsnes Data, viewed on 21 Feb 2021, <https://www.w3schools.com/python/python_datetime.asp>
+-   progtamiz.com 2021, _Python datetime_, Parewa Labs Pvt.Ltd., viewed on 21 Feb 2021, <https://www.programiz.com/python-programming/datetime>
 
 
 ## **5. squareroot.py**
@@ -160,12 +160,12 @@ _Newton method is used to get the (approx.) square root of a number. It consists
 
 *REFERENCE:*
 
--	https://docs.python.org/3/library/math.html
--	https://www.school-for-champions.com/algebra/square_root_approx.htm#.YFsohq_7SUn
--	https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
--	https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html
--	https://www.w3schools.com/python/python_functions.asp
--	https://realpython.com/python-return-statement/
+-	docs.python.org 2021, _math - Mathematical functions_, Python Software Foundation, viewed on 07 Mar 2021, <https://docs.python.org/3/library/math.html>
+-	school-for-champions 2021, _Newthon's Square Root Approximation_, Ron Kurtus, viewed on 07 Mar 2021, <https://www.school-for-champions.com/algebra/square_root_approx.htm#.YFsohq_7SUn>
+-	stackoverflow.com 2021, _Newthon's method_, Stack Exchange (Chase), viewed on 07 Mar 2021, <https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots>
+-	pages.mtu.edu 2021, _Computing Square Root_, viewed on 07 Mar 2021, <https://pages.mtu.edu/~shene/COURSES/cs201/NOTES/chap06/sqrt-1.html>
+-	w3schools.com 2021, _Python Functions_, Refsnes Data, viewed on 07 Mar 2021, <https://www.w3schools.com/python/python_functions.asp>
+-	realpython.com 2021, _The python return statement_, Leodanis P. Ramos, viewd on 07 Mar 2021, <https://realpython.com/python-return-statement>
 
 
 ## **6. es.py**
@@ -191,11 +191,11 @@ _The sys module is imported, to allow the use of sys.argv - a list in Python, wh
 
 *REFERENCE:*
 
--	https://www.w3schools.com/python/ref_string_count.asp
--	https://www.guru99.com/python-string-count.html
--	https://realpython.com/python-command-line-arguments/
--	https://www.tutorialsteacher.com/python/sys-module
--	https://docs.python.org/3/library/sys.html
+-	w3schools.com 2021, _Python String Count_, Refsnes Data, viewed on 11 Mar 2021, <https://www.w3schools.com/python/ref_string_count.asp>
+-	guru99.com 2021, _Python String Count_, Guru99, viewed on 11 Mar 2021, <https://www.guru99.com/python-string-count.html>
+-	realpython.com 2021, _Python Command Line Arguments_, Andre Burgaud, viewd on 11 Mar 2021, <https://realpython.com/python-command-line-arguments>
+-	tutorialsteacher.com 2021, _Python - sys Module_, TutorialsTeacher, viewed on 11 Mar 2021, <https://www.tutorialsteacher.com/python/sys-module>
+-	docs.pyhton.org 2021, _sys - System-specific parameters and functions_, Python Software Foundation, viewed on 11 Mar 2021, <https://docs.python.org/3/library/sys.html>
 
 
 ## **7. plottask.py**
@@ -234,15 +234,14 @@ _First numpy and matplotlib.pyplot modules get imported. Numpy to work with arra
 
 *REFERENCE:*
 
--	https://realpython.com/numpy-tutorial/
--	https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
--	https://www.w3schools.com/python/matplotlib_pyplot.asp
--   https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp
--   https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
--   https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib
+-	realpython.com 2021, _NumPy Tutorial_, Ryan Palo, viewed on 18 Mar 2021, <https://realpython.com/numpy-tutorial>
+-	matplotlib.org 2021, _matplotlib.pyplot.plot_, John Hunter, et al, viewed on 24 Mar 2021 https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+-	w3schools.com 2021, _Matplotlib Pyplot_, Refsnes Data, viewed on 24 Mar 2021, <https://www.w3schools.com/python/matplotlib_pyplot.asp>
+-   w3schools.com 2021, _NumPy Creating Arrays_, Refsnes Data, viewed on 24 Mar 2021, <https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp>
+-   stackoverflow.com 2021, _How do I set the figure and axes font size_, Stack Exchange (William Miller), viewed on 24 Mar 2021, <https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib>
 
 
 ## **README FORMATTING**
-- https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
-- https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github
+- docs.github.com 2021, _Basic writting and formatting syntax_, GitHub, Inc., viewed on 23 Mar 2021, <https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax>
+- stackovergflow.com 2021, _How to add images to README.md on GitHub_, Stack Exchange (Kev), viewed on 31 Mar 2021, <https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github>
 
