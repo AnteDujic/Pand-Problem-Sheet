@@ -12,5 +12,8 @@ print (stringSecond [::-1])
 
 """
 REFERENCES:
-- string slicing: https://stackoverflow.com/questions/509211/understanding-slice-notation
+- string slicing:
+       https://stackoverflow.com/questions/509211/understanding-slice-notation
+       https://www.w3schools.com/python/python_strings_slicing.asp
+       https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python
 """

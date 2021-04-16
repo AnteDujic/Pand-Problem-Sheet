@@ -34,6 +34,7 @@ print ("BMI is: ",BMI)
 _Program asks the user to input height (cm) and weight (kg) as a float number. It then calculates BMI using formula BMI = kg/m^2 (converting cm to m), rounds it using round() function  and prints it out._
 
 *REFERENCES:*
+-   w3scools.com 2021, _Python input() Function_, Refsnes Data, viewed on 01 Feb 2021, <https://www.w3schools.com/python/ref_func_input.asp>
 -	Diabetes.ca 2021, _Body Mass Index_, Diabetes Canada, viewed on 01 Feb 2021, <https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator>
 -	w3schools.com 2021, _Python round()_, Refsnes Data, viewed on 01 Feb 2021, <https://www.w3schools.com/python/ref_func_round.asp>
 -	stackoverflow.com 2021, _BMI calculator_, Stack Exchange, viewed on 01 Feb 2021, <https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792>
@@ -58,6 +59,7 @@ _Program asks the user to write a sentence. It takes every second letter of that
 *REFERENCES:*
 - stackoverflow.com 2021, _Understanding slice notation_, Stack Exchange (Greg Hewgill), viewed on 09 Feb 2021, <https://stackoverflow.com/questions/509211/understanding-slice-notation>
 - educative.io 2021, _How do you reverse a string_, Educative, Inc., viewed on 09 feb 2021, <https://www.educative.io/edpresso/how-do-you-reverse-a-string-in-python>
+- w3scools.com 2021, _Python - slicing strings_, Refsnes Data, viewed on 16 Apr 2021, <https://www.w3schools.com/python/python_strings_slicing.asp>
 
 
 ## **3. collatz.py**
@@ -97,6 +99,7 @@ _Program asks the user to input a positive integer. The While loop is set up, if
 -   w3schools.com 2021, _Python Lists_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/python_lists.asp>
 -	w3schools.com 2021, _Python List append()_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/ref_list_append.asp>
 -	w3schools.com 2021, _Python While Loops_, Refsnes Data, viewed on 15 Feb 2021, <https://www.w3schools.com/python/python_while_loops.asp>
+-   tutorialspoint.com 2021, _Python - basic operations_, Tutorials Point, viewed on 16 Apr 2021, <https://www.tutorialspoint.com/python/python_basic_operators.htm>
 
 
 ## **4. weekday.py**

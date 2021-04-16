@@ -40,4 +40,5 @@ REFERENCES:
 - while loop: https://www.w3schools.com/python/python_while_loops.asp
 - list: https://www.w3schools.com/python/python_lists.asp
 - add to list: https://www.w3schools.com/python/ref_list_append.asp
+- math operations: https://www.tutorialspoint.com/python/python_basic_operators.htm
 """

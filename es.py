@@ -19,8 +19,13 @@ with open (myFile, "rt") as f:
 
 """
 REFERENCES:
+- command line argument: https://realpython.com/python-command-line-arguments/
 - sys module: https://www.tutorialsteacher.com/python/sys-module
-- sys.argv[]: https://www.tutorialsteacher.com/python/sys-module
+- sys.argv[]: 
+        https://www.tutorialsteacher.com/python/sys-module
+        https://docs.python.org/3/library/sys.html
 - with open(): https://realpython.com/read-write-files-python/
-- count string: https://www.w3schools.com/python/ref_string_count.asp
+- count string: 
+        https://www.w3schools.com/python/ref_string_count.asp
+        https://www.guru99.com/python-string-count.html
 """

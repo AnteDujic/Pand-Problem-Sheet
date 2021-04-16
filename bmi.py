@@ -17,5 +17,6 @@ print ("BMI is:",BMI)
 REFERENCES:
 - input: https://www.w3schools.com/python/ref_func_input.asp
 - formula: https://www.diabetes.ca/managing-my-diabetes/tools---resources/body-mass-index-(bmi)-calculator
-- round: https://www.w3schools.com/python/ref_func_round.
+- round: https://www.w3schools.com/python/ref_func_round
+- BMI calculator: https://stackoverflow.com/questions/20405610/bmi-calculator-in-python/20405792
 """

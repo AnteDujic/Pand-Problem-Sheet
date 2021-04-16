@@ -30,6 +30,8 @@ print("The sqare root of {} is approx. {}" .format (x, (round ((sqrt (x)), 1))))
 
 """
 REFERENCES:
+- Newton Method: https://www.school-for-champions.com/algebra/square_root_approx.htm#.YHlhCuhKiUn
+- Newton Method - python: https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
 - math module: https://docs.python.org/3/library/math.html
 - function: https://www.w3schools.com/python/python_functions.asp
 - return: https://realpython.com/python-return-statement/
